@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+body{
+    background-image: url(../images/bg-pattern-top.svg),url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -100% 40%,160% -40%;
+    background-color:  hsl(185, 75%, 39%);   
+}
+#globalPart{
+    height: 350px;
+    width:  350px;
+    margin:auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 120px;
+    overflow: hidden;
+}
+.image-victor {
+    border-radius: 50px;
+    border: 5px solid white;
+    margin-left:130px;
+    margin-top: -54px; 
+}
+#Victor {
+    display: flex;
+    justify-content: center;  
+    font-size: 20px; 
+    margin-bottom: 5px;
+}
+#Victor :nth-child(2){
+    padding-left: 10px;
+    color: gray;
+}
+#textPart :last-child{
+    text-align: center;
+    color: gray; 
+}
+#lastPart {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 5px;
+}
+p:first-child {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+p:last-child {
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    body{
+        background-image: url(../images/bg-pattern-top.svg),url(../images/bg-pattern-bottom.svg);
+        background-repeat: no-repeat;
+        background-position: 150% 40%,-60% -40%;
+        background-color:  hsl(185, 75%, 39%);   
+    }
+    #globalPart{
+        height: 350px;
+        width:  350px;
+        margin:auto;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 120px;
+        overflow: hidden;
+    }
+    .image-victor {
+        border-radius: 50px;
+        border: 5px solid white;
+        margin-left:130px;
+        margin-top: -54px; 
+    }
+    #Victor {
+        display: flex;
+        justify-content: center;  
+        font-size: 20px; 
+        margin-bottom: 5px;
+    }
+    #Victor :nth-child(2){
+        padding-left: 10px;
+        color: gray;
+    }
+    #textPart :last-child{
+        text-align: center;
+        color: gray; 
+    }
+    #lastPart {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    p:first-child {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    p:last-child {
+        font-size: 15px;
+        color: gray;
+        text-align: center;
+    }
+}
